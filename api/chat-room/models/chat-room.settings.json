@@ -1,0 +1,73 @@
+{
+  "kind": "collectionType",
+  "collectionName": "chat_rooms",
+  "info": {
+    "name": "chat_room",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true,
+    "searchable": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "deleted_at": {
+      "type": "datetime"
+    },
+    "taxiFare": {
+      "type": "integer"
+    },
+    "distance": {
+      "type": "decimal"
+    },
+    "departureTime": {
+      "type": "datetime"
+    },
+    "person_limit": {
+      "type": "integer"
+    },
+    "start_at": {
+      "type": "datetime",
+      "searchable": true
+    },
+    "disable_at": {
+      "type": "datetime"
+    },
+    "gender": {
+      "type": "enumeration",
+      "enum": ["W", "M", "None"]
+    },
+    "creator_id": {
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "title": {
+      "type": "string",
+      "searchable": true
+    },
+    "path": {
+      "type": "json"
+    },
+    "duration": {
+      "type": "decimal",
+      "searchable": true
+    },
+    "start_route": {
+      "via": "start_chat_rooms",
+      "model": "route",
+      "searchable": true
+    },
+    "end_route": {
+      "via": "end_chat_rooms",
+      "model": "route",
+      "searchable": true
+    },
+    "enter_users": {
+      "via": "enter_chat_rooms",
+      "plugin": "users-permissions",
+      "collection": "user"
+    }
+  }
+}
