@@ -2,7 +2,10 @@
   "scripts": {
     "android": "open -a AndroidStudio android/CirclinReact",
     "androidReleaseAPK": "cd android && ./gradlew app:assembleRelease",
-    "ios": "open -a Xcode ios/CirclinReact/CirclinReact.xcworkspace"
+    "ios": "open -a Xcode ios/CirclinReact/CirclinReact.xcworkspace",
+    "xcode_install": "brew install wget && wget https://download.developer.apple.com/Developer_Tools/Xcode_13.3_beta_3/Xcode_13.3_beta_3.xip",
+    "android_install": "",
+    "up":"git add . && git commit -m \"updated\" && git push"
   },
   "version": "1.0.0",
   "main": "index.js",
