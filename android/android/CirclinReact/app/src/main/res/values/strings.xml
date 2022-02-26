@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">써클인플러스</string>
+    <color name="colorPrimary">#121212</color>
+    <color name="colorPrimaryDark">#232423</color>
+    <color name="colorAccent">#c6d6f0</color>
+    <color name="colorGray">#757575</color>
+    <string name="kakao_app_key">816b03e88bc111ad2401cf928da714d0</string>
+    <string name="default_notification_channel_id">10001</string>
+    <color name="colorBlack">#000</color>
+</resources>
