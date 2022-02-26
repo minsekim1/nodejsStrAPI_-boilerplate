@@ -1,0 +1,7 @@
+{
+  "name": "react-nodejs-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/minsekim1/react-nodejs-boilerplate.git",
+  "license": "MIT"
+}
