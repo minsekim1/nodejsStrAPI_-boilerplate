@@ -4,7 +4,7 @@
     "androidReleaseAPK": "cd android && ./gradlew app:assembleRelease",
     "ios": "open -a Xcode ios/CirclinReact/CirclinReact.xcworkspace",
     "xcode_install": "open https://developer.apple.com/download/",
-    "android_install":""
+    "android_install": "open https://developer.android.com/studio"
   },
   "version": "1.0.0",
   "main": "index.js",
