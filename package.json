@@ -1,5 +1,9 @@
 {
-  "name": "react-nodejs-boilerplate",
+  "scripts": {
+    "android": "open -a AndroidStudio android/CirclinReact",
+    "androidReleaseAPK": "cd android && ./gradlew app:assembleRelease",
+    "ios": "open -a Xcode ios/CirclinReact/CirclinReact.xcworkspace"
+  },
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/minsekim1/react-nodejs-boilerplate.git",
