@@ -72,8 +72,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
     public static WebView mWebView; // 웹뷰 선언
     public static WebView childView; // 웹뷰 선언
-//    private static final String ENTRY_URL = "http://172.30.1.8:3000";
-    private static final String ENTRY_URL = "https://app.circlinplus.co.kr/";
+    private static final String ENTRY_URL = "http://172.30.1.40:3000";
     private WebSettings mWebSettings; //웹뷰세팅
     private boolean RotateAble = false;
     private boolean BackAvailable = true;
