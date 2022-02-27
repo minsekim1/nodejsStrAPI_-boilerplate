@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "android": "open -a AndroidStudio android/CirclinReact",
+    "android": "open -a \"Android Studio\" android/CirclinReact",
     "androidReleaseAPK": "cd android && ./gradlew app:assembleRelease",
     "ios": "open -a Xcode ios/CirclinReact/CirclinReact.xcworkspace",
     "xcode_download": "open https://apps.apple.com/us/app/xcode/id497799835?mt=12",
