@@ -7,20 +7,21 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "dev": "git pull && yarn && pm2 kill && pm2 start yarn --interpreter bash --name api -- develop && pm2 monit"
   },
   "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "4.0.7",
-    "@strapi/plugin-users-permissions": "4.0.7",
-    "@strapi/plugin-i18n": "4.0.7",
-    "sqlite3": "5.0.2"
+    "@strapi/strapi": "4.1.0",
+    "@strapi/plugin-users-permissions": "4.1.0",
+    "@strapi/plugin-i18n": "4.1.0",
+    "mysql": "2.18.1"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "c8e1ee10-1098-4a18-aaae-6ea2f0fb224a"
+    "uuid": "a8f3b343-7fae-4801-a421-6ab106bd98de"
   },
   "engines": {
     "node": ">=12.x.x <=16.x.x",
