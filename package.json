@@ -3,8 +3,8 @@
     "android": "open -a AndroidStudio android/CirclinReact",
     "androidReleaseAPK": "cd android && ./gradlew app:assembleRelease",
     "ios": "open -a Xcode ios/CirclinReact/CirclinReact.xcworkspace",
-    "xcode_install": "open https://developer.apple.com/download/",
-    "android_install": "open https://developer.android.com/studio"
+    "xcode_download": "open https://apps.apple.com/us/app/xcode/id497799835?mt=12",
+    "android_download": "open https://developer.android.com/studio"
   },
   "version": "1.0.0",
   "main": "index.js",
