@@ -4,6 +4,7 @@
     "androidReleaseAPK": "cd android && ./gradlew app:assembleRelease",
     "start": "cd react-app && yarn start",
     "ios": "open -a Xcode ios/CirclinReact/CirclinReact.xcworkspace",
+    "xcode_pod_install": "cd ios/CirclinReact && npx pod-install",
     "xcode_download": "open https://apps.apple.com/us/app/xcode/id497799835?mt=12",
     "android_download": "open https://developer.android.com/studio"
   },
