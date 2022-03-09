@@ -1,6 +1,0 @@
-framework module Pods_CirclinReact {
-  umbrella header "Pods-CirclinReact-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "770004842078",
+    "project_id": "mullo-efcc2",
+    "storage_bucket": "mullo-efcc2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:770004842078:android:f1115c1d0353d99d7e26cf",
+        "android_client_info": {
+          "package_name": "kr.co.react.boilerplate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "770004842078-g5l5pehu4aeq060n0s8vq5ln32f5u9fl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDu-wDOCvvkzeGrXVzoU15vsoCcUeeSjsQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "770004842078-g5l5pehu4aeq060n0s8vq5ln32f5u9fl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

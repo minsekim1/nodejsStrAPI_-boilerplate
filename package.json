@@ -2,10 +2,10 @@
   "scripts": {
     "start": "cd react-app && yarn start",
     "server_start": "cd my-project && yarn && yarn start",
-    "ios": "open -a Xcode ios/CirclinReact/CirclinReact.xcworkspace",
-    "xcode_pod_install": "cd ios/CirclinReact && npx pod-install",
+    "ios": "open -a Xcode ios/React/React.xcworkspace",
+    "xcode_pod_install": "cd ios/React && npx pod-install",
     "xcode_download": "open https://apps.apple.com/us/app/xcode/id497799835?mt=12",
-    "android": "open -a \"Android Studio\" android/CirclinReact",
+    "android": "open -a \"Android Studio\" android/React",
     "android_download": "open https://developer.android.com/studio"
   },
   "version": "1.0.0",
