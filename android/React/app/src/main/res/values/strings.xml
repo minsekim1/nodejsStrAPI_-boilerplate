@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">워터리마인드챌린지</string>
+    <string name="app_name">ReactBoilerPlate</string>
     <color name="colorPrimary">#FFF</color>
     <color name="colorPrimaryDark">#232423</color>
     <color name="colorAccent">#c6d6f0</color>
