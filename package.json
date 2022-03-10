@@ -1,7 +1,9 @@
 {
   "scripts": {
     "start": "cd react-app && yarn start",
-    "server_start": "cd my-project && yarn && yarn start",
+    "server_stop": "cd my-project && yarn && sudo yarn kill",
+    "server_start": "cd my-project && yarn && sudo yarn start",
+    "server_restart": "cd my-project && yarn && sudo yarn restart",
     "ios": "open -a Xcode ios/React/React.xcworkspace",
     "xcode_pod_install": "cd ios/React && npx pod-install",
     "xcode_download": "open https://apps.apple.com/us/app/xcode/id497799835?mt=12",
