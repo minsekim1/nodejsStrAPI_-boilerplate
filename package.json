@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "start": "cd react-app && yarn start",
+    "stop": "pm2 delete app",
+    "start": "cd react-app && yarn && yarn dev",
     "server_start": "cd my-project && yarn && yarn start",
     "ios": "open -a Xcode ios/React/React.xcworkspace",
     "xcode_pod_install": "cd ios/React && npx pod-install",
@@ -11,5 +12,6 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/minsekim1/react-nodejs-boilerplate.git",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {}
 }
