@@ -5,7 +5,10 @@
   "description": "A Strapi application",
   "scripts": {
     "develop": "strapi develop",
-    "start": "strapi start",
+    "startS": "strapi start",
+    "kill": "pm2 kill",
+    "start": "pm2 start yarn --interpreter bash --name app -- startS",
+    "restart": "pm2 restart app",
     "build": "strapi build",
     "strapi": "strapi"
   },
