@@ -60,7 +60,6 @@ extension Api {
             self.sessions[type] = session
         }
         
-//        SdkLog.d("<<<<<<< sessions: \(self.sessions)   count: \(self.sessions.count)")
     }
     
     public func session(_ sessionType: SessionType) -> Session {

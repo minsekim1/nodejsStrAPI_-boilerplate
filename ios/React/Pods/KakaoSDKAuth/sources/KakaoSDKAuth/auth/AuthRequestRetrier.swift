@@ -50,7 +50,6 @@ public class AuthRequestRetrier : RequestInterceptor {
                     if !isRefreshing {
                         isRefreshing = true
                             
-                        //SdkLog.d("<<<<<<<<<<<<<< start token refresh\n request: \(String(describing:request))\n\n")
                         AuthApi.shared.refreshToken { [unowned self] (token, error) in
                             
                             if let error = error {
