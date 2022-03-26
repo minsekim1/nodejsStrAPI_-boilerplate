@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "dev":"cd react-app && yarn dev",
     "start": "cd react-app && yarn start",
     "server_stop": "cd my-project && yarn && sudo yarn kill",
     "server_start": "cd my-project && yarn && sudo yarn start",
