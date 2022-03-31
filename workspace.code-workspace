@@ -1,0 +1,14 @@
+{
+  "folders": [
+	{
+		"path": "react-app/src/components/templates"
+	},
+	{
+		"path": "react-app/src/utils/apollo"
+	},
+	{
+		"path": "react-app/src/pages"
+	}
+],
+  "settings": {}
+}
