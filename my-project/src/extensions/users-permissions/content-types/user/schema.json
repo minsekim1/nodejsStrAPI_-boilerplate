@@ -87,6 +87,24 @@
     "agree_push": {
       "type": "boolean",
       "default": true
+    },
+    "following": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "follower"
+    },
+    "follower": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "following"
+    },
+    "chatroom_ids": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::chatroom.chatroom",
+      "inversedBy": "user_ids"
     }
   }
 }

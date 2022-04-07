@@ -72,8 +72,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
     public static WebView mWebView; // 웹뷰 선언
     public static WebView childView; // 웹뷰 선언
-//    private static final String ENTRY_URL = "http://172.30.1.8:3000";
-    private static final String ENTRY_URL = "https://dongwon.circlin.co.kr:444";
+    private static final String ENTRY_URL = "http://172.30.1.13:3000";
 //    private static final String ENTRY_URL = "https://www.naver.com/";
     private WebSettings mWebSettings; //웹뷰세팅
     private AlertDialog mAlertDialog; // 경고창을 띄울 Dialog

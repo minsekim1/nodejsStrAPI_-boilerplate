@@ -114,8 +114,7 @@ class ViewController: UIViewController, WKNavigationDelegate, WKUIDelegate, WKSc
         ///
         // * WKWebView에 로딩할 URL 전달
         //  - 캐시 기본 정책 사용, 타임아웃은 10초로 지정하였습니다.
-//       let request: URLRequest = URLRequest.init(url: NSURL.init(string: "http://172.30.1.8:3000")! as URL, cachePolicy: URLRequest.CachePolicy.useProtocolCachePolicy, timeoutInterval: 10)
-         let request: URLRequest = URLRequest.init(url: NSURL.init(string: "https://dongwon.circlin.co.kr:444/")! as URL, cachePolicy: URLRequest.CachePolicy.useProtocolCachePolicy, timeoutInterval: 10)
+       let request: URLRequest = URLRequest.init(url: NSURL.init(string: "http://172.30.1.13:3000")! as URL, cachePolicy: URLRequest.CachePolicy.useProtocolCachePolicy, timeoutInterval: 10)
         self.wkWebView?.load(request)
         // * WKWebView 화면에 표시
         self.view?.addSubview(self.wkWebView!)

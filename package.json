@@ -10,7 +10,8 @@
     "xcode_pod_install": "cd ios/React && npx pod-install",
     "xcode_download": "open https://apps.apple.com/us/app/xcode/id497799835?mt=12",
     "android": "open -a \"Android Studio\" android/React",
-    "android_download": "open https://developer.android.com/studio"
+    "android_download": "open https://developer.android.com/studio",
+    "server_port_kill": "sudo lsof -ti:1337 | sudo xargs kill"
   },
   "version": "1.0.0",
   "main": "index.js",
