@@ -1,0 +1,33 @@
+{
+  "name": "my-project",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "startS": "strapi start",
+    "kill": "pm2 kill",
+    "start": "pm2 start yarn --interpreter bash --name app -- startS",
+    "restart": "pm2 restart app",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/plugin-graphql": "^4.1.5",
+    "@strapi/plugin-i18n": "4.1.3",
+    "@strapi/plugin-users-permissions": "4.1.3",
+    "@strapi/strapi": "4.1.3",
+    "sqlite3": "5.0.2"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "ed7d6084-4395-4589-b492-b0f7769c0aef"
+  },
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
