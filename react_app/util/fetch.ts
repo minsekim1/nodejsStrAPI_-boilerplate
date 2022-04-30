@@ -1,7 +1,7 @@
 /**
  * 자주쓰는 fetch Method : 'GET' 를 줄여쓰기위해 쓰는 함수입니다.
  */
-const API_URL = "http://localhost:1337/api";
+export const API_URL = "http://localhost:1337/api";
 export const getFetch = (url: string) => {
   return new Promise((resolve) => {
     fetch(`${API_URL}${url}`, {
@@ -16,7 +16,7 @@ export const getFetch = (url: string) => {
         resolve(d);
       })
       .catch((e) => {
-        alert("getFetch error" + url + " " + e.message);
+        alert("서버통신이 원활하지 않습니다. getFetch error" + url + " " + e.message);
       });
   });
 };

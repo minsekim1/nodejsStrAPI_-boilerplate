@@ -17,8 +17,8 @@ const Page: NextPage = () => {
   }, []);
   useEffect(() => {}, []);
   const handleClickLogin = () => router.push("/login");
-  const handleClickSignup = () => router.push("/");
-
+  const handleClickSignup = () => router.push("/signup");
+  const handleClickSNS = () => router.push("/sns");
   return (
     <Box
       sx={{
@@ -240,6 +240,9 @@ const Page: NextPage = () => {
               </Box>
               <Button fullWidth variant="contained" onClick={handleClickLogin}>
                 이메일로 로그인
+              </Button>
+              <Button fullWidth variant="outlined" sx={{ mt: 1 }} onClick={handleClickSNS}>
+                SNS 로그인
               </Button>
               <Button fullWidth variant="outlined" sx={{ mt: 1 }} onClick={handleClickSignup}>
                 이메일로 회원가입

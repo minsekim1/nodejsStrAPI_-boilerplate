@@ -48,7 +48,6 @@ const Page: NextPage = () => {
   const handleClickPassword = () => setShowPassword((prev) => !prev);
   const handleMouseDownPassword = (event: MouseEvent<HTMLButtonElement>) => event.preventDefault();
   const handleClickSignup = () => router.push("/signup");
-  const handleClickSNS = () => router.push("/auth/sns");
 
   const handleClickConfirm = () => {
     if (!email.value) setEmail({ ...email, error: true, helperText: "이메일을 주소를 입력해 주세요!" });
@@ -142,9 +141,7 @@ const Page: NextPage = () => {
           <Button fullWidth onClick={handleClickConfirm}>
             로그인
           </Button>
-          <Button fullWidth variant="outlined" sx={{ mt: 1 }} onClick={handleClickSNS}>
-            SNS 로그인
-          </Button>
+
           <Button fullWidth variant="text" color="inherit" sx={{ mt: 1 }} onClick={handleClickSignup}>
             이메일로 회원가입
           </Button>

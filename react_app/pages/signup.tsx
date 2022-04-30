@@ -198,7 +198,7 @@ const Page: NextPage = () => {
               endAdornment={
                 <InputAdornment position="end">
                   <IconButton onClick={handleClickCheckPassword} onMouseDown={handleMouseDown}>
-                    <div style={{ fontSize: 13 }}>{showPassword ? "hide" : "show"}</div>
+                    <div style={{ fontSize: 13 }}>{showCheckPassword ? "hide" : "show"}</div>
                   </IconButton>
                 </InputAdornment>
               }

@@ -8,7 +8,7 @@ import { theme } from "../styles/themes/theme";
 import Loader from "../components/atoms/loader";
 import Dialog from "../components/atoms/dialog";
 
-function MyApp({ Component, pageProps }: AppProps) {
+function MyApp({ Component, pageProps }: any) {
   return (
     <>
       <Head>

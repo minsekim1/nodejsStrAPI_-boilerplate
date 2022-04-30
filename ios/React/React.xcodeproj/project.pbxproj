@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06139A5927B0C79600F35AF4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 06139A5827B0C79600F35AF4 /* GoogleService-Info.plist */; };
+		0618BEAC281C0DB30072BE18 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0618BEAB281C0DB30072BE18 /* GoogleService-Info.plist */; };
 		062253BC27702D8900788320 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 062253BB27702D8900788320 /* FirebaseAuth */; };
 		062253BE27702D8900788320 /* FirebaseInAppMessaging-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 062253BD27702D8900788320 /* FirebaseInAppMessaging-Beta */; };
 		062253C027702D8900788320 /* FirebaseInAppMessagingSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 062253BF27702D8900788320 /* FirebaseInAppMessagingSwift-Beta */; };
@@ -51,7 +51,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06139A5827B0C79600F35AF4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "React/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		0618BEAB281C0DB30072BE18 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0644C591276CBF9A00F34204 /* ReactDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ReactDebug.entitlements; sourceTree = "<group>"; };
 		06504E8C276CDE9A00984194 /* PushKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PushKit.framework; path = System/Library/Frameworks/PushKit.framework; sourceTree = SDKROOT; };
 		0659338A277AE00A00B57C24 /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
@@ -166,8 +166,8 @@
 				BC8BE57327199D4000D8AE86 /* ViewController.swift */,
 				BC8BE57527199D4000D8AE86 /* Main.storyboard */,
 				BC8BE57827199D4100D8AE86 /* Assets.xcassets */,
-				06139A5827B0C79600F35AF4 /* GoogleService-Info.plist */,
 				BC8BE57A27199D4100D8AE86 /* LaunchScreen.storyboard */,
+				0618BEAB281C0DB30072BE18 /* GoogleService-Info.plist */,
 				BC8BE57D27199D4100D8AE86 /* Info.plist */,
 				0659338A277AE00A00B57C24 /* NetworkMonitor.swift */,
 				0659338C277AE31900B57C24 /* UIWindowExt.swift */,
@@ -327,7 +327,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC8BE57C27199D4100D8AE86 /* LaunchScreen.storyboard in Resources */,
-				06139A5927B0C79600F35AF4 /* GoogleService-Info.plist in Resources */,
+				0618BEAC281C0DB30072BE18 /* GoogleService-Info.plist in Resources */,
 				BC8BE57927199D4100D8AE86 /* Assets.xcassets in Resources */,
 				BC8BE57727199D4000D8AE86 /* Main.storyboard in Resources */,
 			);
@@ -648,14 +648,14 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 0;
-				DEVELOPMENT_TEAM = 7TYHB2K2ZU;
+				DEVELOPMENT_TEAM = U9VA2386V7;
 				INFOPLIST_FILE = React/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = kr.co.react.boilerplate.ios;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.react.boilerplateiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -672,14 +672,14 @@
 				CODE_SIGN_ENTITLEMENTS = React/React.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 0;
-				DEVELOPMENT_TEAM = 7TYHB2K2ZU;
+				DEVELOPMENT_TEAM = U9VA2386V7;
 				INFOPLIST_FILE = React/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = kr.co.react.boilerplate.ios;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.react.boilerplateiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

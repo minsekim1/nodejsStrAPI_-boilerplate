@@ -24,7 +24,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate,  UNUserNotificationCenter
         NetworkMonitor.shared.startMonitoring()
         // 푸쉬 권한요청
         requestAuthorizationForRemotePushNotification()
-        KakaoSDK.initSDK(appKey: "816b03e88bc111ad2401cf928da714d0")
+        KakaoSDK.initSDK(appKey: "e4cdbc6cc87d8a0dd6982f2bc5adf1f0")
     
     
         // [START iOS APNS setting]
