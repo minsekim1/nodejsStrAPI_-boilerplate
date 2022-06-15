@@ -12,13 +12,16 @@ export default function Page() {
   const [messageList, setMessageList] = useState({ data: [], meta: null });
   const inputRef = useRef<any>();
 
-  const user = typeof window && localStorage.getItem("user") ? JSON.parse(localStorage.getItem("user") ?? "") : null;
+  const [user, setUser] = useState<any>();
+
   const checkMessage = () => {
     getFetch("/chats").then((d: any) => {
       if (d.data.length != messageList.data.length) setMessageList(d);
     });
   };
   useEffect(() => {
+    if (typeof window && localStorage.getItem("user")) setUser(JSON.parse(localStorage.getItem("user") ?? ""));
+
     checkMessage();
     let timer = setInterval(() => checkMessage(), 2000);
     return () => clearInterval(timer);
@@ -61,7 +64,7 @@ export default function Page() {
               message: string; //"asd";
             };
           }) => (
-            <Box>{d.attributes.message}</Box>
+            <Box key={d.id}>{d.attributes.message}</Box>
           )
         )}
         <Box sx={{ position: "fixed", bottom: 32, display: "flex", alignItems: "center" }}>
