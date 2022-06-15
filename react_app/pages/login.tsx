@@ -18,7 +18,6 @@ import { ChangeEvent, MouseEvent, useState } from "react";
 import { isEmail, isPassword } from "../util/regx";
 import { useSetRecoilState } from "recoil";
 import { tokenState } from "../hook/recoil";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 // Input에 들어갈 수 있는 타입을 선언합니다.
 type typeInput = {
@@ -145,6 +144,7 @@ const Page: NextPage = () => {
           <Button fullWidth variant="text" color="inherit" sx={{ mt: 1 }} onClick={handleClickSignup}>
             이메일로 회원가입
           </Button>
+        
         </Box>
       </Container>
     </Box>

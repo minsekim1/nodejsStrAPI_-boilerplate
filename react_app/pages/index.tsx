@@ -247,6 +247,9 @@ const Page: NextPage = () => {
               <Button fullWidth variant="outlined" sx={{ mt: 1 }} onClick={handleClickSignup}>
                 이메일로 회원가입
               </Button>
+              <Button fullWidth variant="text" sx={{ mt: 1 }} onClick={() => router.push("/home")}>
+                넘어가기
+              </Button>
               <Typography
                 sx={{
                   mt: 2,
